@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+body {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-name {
+    font-family: 'Rubik Dirt', cursive;
+    padding-left: 5px;
+    font-size: 36px;
+    position: absolute;
+}
+
+/* my menu style*/
+li{
+    display: inline;
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li  a{
+    text-decoration: none;
+    width: 100px;
+    font-size: 24px;
+    color: darkmagenta;
+    
+}
+
+/* my style end */
+
+#nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header_section{
+    display:flex;
+    padding-bottom:20px;
+
+}
+
+.header_section img{
+    border-radius: 10px;
+}
+
+.header-text{
+    padding: 20px;
+}
+.header_section h1{
+    font-size: 48px;
+    padding-left: 20px;
+    line-height: 1;
+}
+.header_section p{
+    font-size: 24px;
+    padding-left: 20px;
+}
+button{
+    font-size: 16px;
+    padding: 12px;
+    margin: 20px;
+    background-color: darkmagenta;
+    color:white;
+    border-radius: 30px;
+    width: 150px;
+}
+.store{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.products{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.products img{
+    padding: 20px;
+}
+
+.shipping{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shipping h1{
+    color: darkmagenta;
+}
+
+.shipping p{
+    /* color: cornsilk; */
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input{
+    padding: 15px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+label {
+    color: darkmagenta;
+    font-size: 18px;
+}
+
+.Subscribe{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.foot{
+    background-color: darkslategray;
+    color: blanchedalmond;
+    text-align: center;
+    margin: 0;
+}
+
+.contact{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.contact p{
+    font-size: 42px;
+
+    /* color: darkmagenta; */
+}
+
+/* MOBILE CSS */
+
+@media all and (max-width: 750px) {
+    .shipping{
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column !important;
+    }
+
+    .header_section{
+        flex-direction: column;
+    }
+
+    .header_section img {
+        width: 400px;
+    }
+    .contact{
+        text-align: centr;
+        flex-direction: column;
+        padding: 0;
+    }
+    .contact p{
+        padding-left: 40px;
+    }
+
+    #nav-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        flex-direction: column;
+    }    
+
+    ul {
+        padding-top: 10px;
+    }
+
+    .foot {
+        text-align: justify;
+    }
+    .foot p{
+        text-align: center;
+    }
+
+  }
