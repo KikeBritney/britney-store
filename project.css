@@ -38,7 +38,10 @@ li  a{
 #nav-menu {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px 20px;
+}
+#nav-menu a{
+    text-decoration: none;
 }
 
 .header_section{
@@ -171,12 +174,12 @@ label {
     #nav-menu {
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        padding: 30px 20px;
         flex-direction: column;
     }    
 
     ul {
-        padding-top: 10px;
+        padding-top: 25px;
     }
 
     .foot {
@@ -184,6 +187,9 @@ label {
     }
     .foot p{
         text-align: center;
+    }
+    .logo-name {
+        font-size: 32px;
     }
 
   }
